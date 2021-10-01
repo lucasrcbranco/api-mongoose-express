@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
 
-import { IUserRepository } from "../modules/repositories/IUserRepository";
-import { IUser } from "../modules/schemas/UserSchema";
+import { IUserRepository } from "../../repositories/IUserRepository";
+import { IUser } from "../../schemas/UserSchema";
 
 interface IRequest {
   username: string;
